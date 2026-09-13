@@ -10,7 +10,7 @@ import streamlit as st
 
 
 APP_DIR = Path(__file__).resolve().parent
-DEFAULT_DATA_PATH = APP_DIR / "NGS_TEAM_PAGE_2025_WEEKLY_V1.parquet"
+DEFAULT_DATA_PATH = APP_DIR / "NGS_TEAM_PAGE_2025_WEEKLY_V1_1.parquet"
 DATA_PATH = Path(os.getenv("NGS_TEAM_PAGE_DATA", str(DEFAULT_DATA_PATH)))
 
 st.set_page_config(
